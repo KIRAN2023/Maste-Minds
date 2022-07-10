@@ -24,8 +24,6 @@ buttonDiv.addEventListener('click',(e)=>{
       });
 });
 
-
-
 const head = document.querySelector(".header");
 const nav  = document.querySelector(".menu-bar");
 
