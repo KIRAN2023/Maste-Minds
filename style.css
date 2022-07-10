@@ -319,7 +319,7 @@ h2 {
 }
 
 /* COURSE CONTENT */
-.course-description .grid {
+.course-description {
     gap: 3rem;
 }
 
@@ -339,10 +339,16 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
-.course-buttons {
+.course-buttons .grid-two-columns {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
+}
+
+.course-buttons button {
+    padding: 1.2rem;
+    margin: 0.5rem;
+    width: 12rem;
 }
 
 .courses-data .info-div .info img {
@@ -362,7 +368,7 @@ h2 {
 .card {
     position: relative;
     width: 23rem;
-    height: 20rem;
+    height: 17rem;
     background-color: var(--white);
     border-radius: 2rem;
     box-shadow: var(--multishadow);
@@ -470,7 +476,7 @@ h2 {
 
 /* OFFERS */
 .offers .offer-MainBox {
-    height: 48rem;
+    height: 60vh;
     width: 100vw;
     background-color: var(--offerDiv);
     position: relative;
@@ -657,7 +663,6 @@ footer a:active {
 @media (max-width:95em) {
     .container {
         max-width: 130rem;
-        padding: 2rem 2.5rem;
     }
 
     .navbar-lists {
@@ -673,12 +678,27 @@ footer a:active {
         line-height: 1.4;
     }
 
-    .grid-templates-three .grid-three-columns {
-        width: 70rem;
-        height: 100%;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3.2rem;
-        justify-content: center;
+    .course-buttons button {
+        padding: 1.1rem;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .card {
+        width: 20rem;
+        height: 18rem;
+        margin: 5rem auto;
+        transition: all 0.5s ease;
+    }
+
+    .card:hover {
+        height: 26rem;
+        margin: 2rem 0;
+    }
+
+    .offers .offer-MainBox .offerBox{
+        width: 30rem;
+        height: 18rem
     }
 
 }
@@ -692,7 +712,6 @@ footer a:active {
 
     .container {
         max-width: 110rem;
-        padding: 2rem 2rem;
     }
 
     .grid {
@@ -745,7 +764,9 @@ footer a:active {
     }
 
     .course-buttons button {
-        padding: 2rem;
+        padding: 1.2rem;
+        width: 10rem;
+        text-align: center;
     }
 
     .offerBox {
@@ -763,9 +784,6 @@ footer a:active {
 
 /* 1072 */
 @media (max-width:67em) {
-    html {
-        font-size: 80%;
-    }
 
     .container {
         max-width: 100rem;
@@ -779,8 +797,9 @@ footer a:active {
         font-size: 1.8rem;
     }
 
-    .main-section .mainImage {
-        width: 80%;
+    .main-section .grid .mainImage {
+        width: 100%;
+        padding: 0rem 1.5rem;
     }
 
     .grid {
@@ -809,6 +828,12 @@ footer a:active {
     .info .purchase-button,
     .info .try-now {
         margin: 1.5rem 1rem;
+    }
+
+    .course-buttons button {
+        padding: 1.2rem;
+        width: 10rem;
+        text-align: center;
     }
 
     .card {
@@ -845,10 +870,6 @@ footer a:active {
         max-width: 80rem;
     }
 
-    html {
-        font-size: 75%;
-    }
-
     .main-section .grid-two-columns {
         grid-template-columns: 1fr;
     }
@@ -880,16 +901,63 @@ footer a:active {
         height: 25rem;
         box-shadow: var(--boxshadow);
     }
+
+    .aboutDiv .grid-two-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .about-us ul li {
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .contact-section .info {
+        width: 30rem
+    }
+
+    .course-buttons {
+        margin-bottom: 5rem;
+    }
+
+    .course-buttons button {
+        width: 15rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .course-description .grid-two-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .offers .offer-MainBox .grid-three-columns {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .offers .offer-MainBox .grid {
+        gap: 1rem;
+        display: grid;
+        place-items: center;
+    }
+
+    .offers .offer-MainBox #offerImg {
+        height: 20rem;
+        justify-content: center;
+    }
 }
 
 /* 800 */
 
 @media (max-width:50em) {
     .courses-data .info-div {
-        width: 50rem;
+        width: 52rem;
         height: 100%;
         margin: auto;
-        gap: 3rem;
+        gap: 2rem;
+    }
+    
+    .offers .offer-MainBox {
+        height: 42rem;
+        width: 100vw;
     }
 }
 
@@ -899,12 +967,31 @@ footer a:active {
     .card-div {
         grid-template-columns: 1fr;
     }
+
     .card {
         width: 25rem;
         height: 15rem;
     }
-    .card:hover{
+
+    .card:hover {
         height: 23rem;
+    }
+
+    .offers .offer-MainBox .offerBox{
+        width: 20rem;
+        height: fit-content;
+    }
+    .offers .offer-MainBox {
+        height: 45rem;
+        width: 100vw;
+    }
+}
+
+/* 660 */
+
+@media (max-width:42em) {
+    .footerData .grid-three-columns {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -918,6 +1005,21 @@ footer a:active {
         margin: auto;
         gap: 3rem;
     }
+
+    .about-us ul li {
+        font-size: 1.2rem;
+    }
+
+    .course-buttons button {
+        width: 13rem;
+        font-size: 1rem;
+    }
+
+    .offers .offer-MainBox .offerBox {
+        width: fit-content;
+        height: fit-content;
+    }
+
 }
 
 
@@ -965,8 +1067,43 @@ footer a:active {
         border-radius: 0.5rem;
         margin: 1rem;
     }
+
+    .footerData .grid-three-columns {
+        grid-template-columns: 1fr;
+    }
+
+
+    .aboutPerformance {
+        display: grid;
+        place-items: center;
+    }
+
+    .aboutPerformance .grid-four-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .offers .offer-MainBox .grid-three-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .offers .offer-MainBox .offerBox {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .offers .offer-MainBox {
+        height: 80rem;
+        width: 100vw;
+    }
+
 }
 
+@media (max-width:33em) {
+    .course-buttons button {
+        width: 10rem;
+        font-size: 0.8rem;
+    }
+}
 
 /* 480 */
 
@@ -988,24 +1125,69 @@ footer a:active {
         margin: auto;
         gap: 2.2rem;
     }
+    .course-buttons button {
+        width: 7rem;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .contact-section .info {
+        width: 25rem;
+        height: fit-content;
+    }
+
+    .offers .offer-MainBox .offerBox {
+        width: 20rem;
+        height: 15rem;
+        font-size: 0.8rem;
+    }
 
 }
 
 /* 400 */
 
-@media (max-width:25em) {
+@media (max-width:26em) {
     .container {
         max-width: 30rem;
     }
+
     .card-div {
         grid-template-columns: 1fr;
     }
+
     .card {
         width: 20rem;
         height: 15rem;
     }
-    .card:hover{
+
+    .card:hover {
         height: 23rem;
+    }
+
+    .about-us ul li {
+        font-size: 1rem;
+    }
+
+    .contact-section .info {
+        width: 22rem;
+        height: fit-content;
+        margin: 1rem;
+    }
+
+    .course-buttons button {
+        width: 7rem;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .offers .offer-MainBox {
+        width: 100%;
+    }
+
+    .offers .offer-MainBox .offerBox {
+        width: 20rem;
+        height: 15rem;
+        font-size: 0.8rem;
     }
 }
 
