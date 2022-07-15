@@ -40,7 +40,7 @@
 <body>
 
     <!-----------HEADER SECTION--------->
-    <header class="header container">
+    <header class="header container section ">
         <img src="images/Logo.png" alt="Master Minds Logo" title="Master Minds" id="logo"></img>
 
         <nav class="navbar">
@@ -62,12 +62,12 @@
     <main>
         <section class="section container main-section">
             <div class="grid grid-two-columns container">
-                <div class="head container">
+                <div class="head">
                     <h1>Welcome To <span id="head">MASTER MINDS !</span></h1>
                     <p>"MASTER MINDS, finest job preparation platform for college students and recent graduates to learn
                         new skills, and to practice to improve their performance." </p>
                 </div>
-                <div class="mainImage container">
+                <div class="mainImage">
                     <img src="images/MainImage.jpg" alt="Main Image">
                 </div>
             </div>
@@ -107,7 +107,7 @@
     </section>
 
     <!----------OFFERS/ABOUT ----------->
-    <div class="section container offers grid-templates-three" id="about-us">
+    <!-- <div class="section container offers grid-templates-three" id="about-us">
         <div class="offer-MainBox">
             <h2>What Master Minds offers you?</h2>
             <div class="container grid grid-two-rows">
@@ -139,7 +139,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!------- COURSES SECTION ------->
@@ -147,8 +147,8 @@
         <h2 class="topic">Find a course you really <span class="highlight"><b> LOVE </b></span> </h2>
         <p class="course-small topic-description">Explore over 100+ free courses and company specific tests.</p>
 
-        <div class="courses-data">
-            <div class="info-div container grid grid-three-columns">
+        <div class="courses-data container">
+            <div class="info-div grid grid-three-columns">
 
                 <div class="info">
                     <img src="images/front-end.png" alt="" srcset="">
@@ -232,20 +232,23 @@
                     <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Try Now</button>
                 </div>
             </div>
+            </div>
     </section>
 
-    <section class="container course-description" id="courses">
+    <section class="container section course-description" id="courses">
         <h2 class="topic">A broad selection of <span class="highlight"> Courses </span></h2>
-        <ul class="course-buttons grid grid-two-columns">
-            <div>
-                <button class="btn p-btn" data-btn-num="1">All Courses</button>
-                <button class="btn p-btn" data-btn-num="2">Javascript</button>
-                <button class="btn p-btn" data-btn-num="3">Java</button>
-            </div>
-            <div>
-                <button class="btn p-btn" data-btn-num="4">Web Development</button>
-                <button class="btn p-btn" data-btn-num="5">Data Science</button>
-                <button class="btn p-btn" data-btn-num="6">Python</button>
+        <ul class="course-buttons container">
+            <div class=" grid grid-one-columns">
+                <div>
+                    <button class="btn p-btn" data-btn-num="1">All Courses</button>
+                    <button class="btn p-btn" data-btn-num="2">Javascript</button>
+                    <button class="btn p-btn" data-btn-num="3">Java</button>
+                </div>
+                <div>
+                    <button class="btn p-btn" data-btn-num="4">Web Development</button>
+                    <button class="btn p-btn" data-btn-num="5">Data Science</button>
+                    <button class="btn p-btn" data-btn-num="6">Python</button>
+                </div>
             </div>
         </ul>
 
@@ -268,7 +271,6 @@
                         <i class="fa-solid fa-check img-content"></i>Complete Code demonstrated in lecture<br>
                         <i class="fa-solid fa-check img-content"></i>Lab Exercises<br>
                     </div>
-
                     <button class="try-now">Enroll Now</button>
                 </div>
             </div> -->
