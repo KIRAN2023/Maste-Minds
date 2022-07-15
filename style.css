@@ -661,6 +661,8 @@ footer a:active {
 @media (max-width: 95em) {
   .container {
     max-width: 130rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .section {
@@ -705,8 +707,14 @@ footer a:active {
 
 /* 1200px */
 @media (max-width: 75em) {
+  html {
+    font-size: 90%;
+  }
+
   .container {
     max-width: 130rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .section {
@@ -733,11 +741,6 @@ footer a:active {
 
   .courses-data .info p {
     line-height: 1.4;
-  }
-
-  .courses-data .info-div {
-    width: 60rem;
-    height: fit-content;
   }
 
   .card {
