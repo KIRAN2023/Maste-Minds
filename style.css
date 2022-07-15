@@ -81,6 +81,8 @@ h2 {
 .container {
   max-width: 140rem;
   margin: 0 auto;
+  padding-right: 3.5rem;
+  padding-left: 3.5em;
 }
 
 .grid {
@@ -665,42 +667,62 @@ footer a:active {
     padding-right: 3.5rem;
   }
 
+ 
   .section {
     gap: 3rem;
   }
 
-  .navbar-lists {
-    gap: 3.2rem;
+  .grid {
+    gap: 2rem;
   }
 
-  .info-section .info-div .info {
+  .grid-templates-three .grid-three-columns {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+  }
+
+  .info-div .info {
     width: 20rem;
-    height: 35rem;
+  }
+
+  .info img {
+    margin-bottom: 1rem;
   }
 
   .courses-data .info p {
     line-height: 1.4;
   }
 
-  .card:hover {
-    height: 26rem;
-    margin: 2rem 0;
-  }
-
-  .offers .offer-MainBox .offerBox {
-    width: 30rem;
-    height: 18rem;
-  }
-
   .card {
     width: 20rem;
-    height: 18rem;
-    margin: 3rem 0;
+    height: 15rem;
     transition: all 0.5s ease;
   }
 
-  .course-description .grid-two-columns {
-    grid-template-columns: 1fr;
+  .card:hover {
+    height: 24rem;
+    margin: 2rem 0;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .image img {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .offerBox {
+    width: 20rem;
+    height: 15rem;
+    padding: 2rem;
+  }
+
+  .card-div {
+    display: grid;
+    place-items: center;
   }
 
 }
