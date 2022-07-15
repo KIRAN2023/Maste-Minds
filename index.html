@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Static Website For Educational Purpose">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Education, Programming Practice">
+    <meta name="author" content="KIRAN N">
+
+    <title>Master Minds</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="MasterMinds/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="MasterMinds/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="MasterMinds/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="MasterMinds/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="MasterMinds/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="MasterMinds/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="MasterMinds/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="MasterMinds/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="MasterMinds/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="MasterMinds/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="MasterMinds/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="MasterMinds/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="MasterMinds/favicon-16x16.png">
+    <link rel="manifest" href="MasterMinds/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="MasterMinds/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="index.js"></script>
+
+</head>
+
+<body>
+
+    <!-----------HEADER SECTION--------->
+    <header class="header container section ">
+        <img src="images/Logo.png" alt="Master Minds Logo" title="Master Minds" id="logo"></img>
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#courses" class="navbar-link home-link">Courses</a></li>
+                <li><a href="#practice" class="navbar-link portfolio-link">Practice</a></li>
+                <li><a href="#about-us" class="navbar-link project-link">About Us</a></li>
+                <li><a href="#contact-us" class="navbar-link contact-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-bar">
+            <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="menu-icon" name="close-outline"></ion-icon>
+        </div>
+    </header>
+
+    <!-----------MAIN SECTION--------->
+    <main>
+        <section class="section container main-section">
+            <div class="grid grid-two-columns container">
+                <div class="head">
+                    <h1>Welcome To <span id="head">MASTER MINDS !</span></h1>
+                    <p>"MASTER MINDS, finest job preparation platform for college students and recent graduates to learn
+                        new skills, and to practice to improve their performance." </p>
+                </div>
+                <div class="mainImage">
+                    <img src="images/MainImage.jpg" alt="Main Image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-----------INFORMATION SECTION--------->
+
+    <section class="section container info-section bgColor grid-templates-three">
+        <h2 class="topic">Defining the future of <span class="highlight"><b> LEARNING </b></span></h2>
+        <p class="topic-description course-small">Fuelled by Technology, Powered for Tomorrow.</p>
+
+        <div class="info-div container grid grid-three-columns">
+            <div class="info info1">
+                <img src="images/carousel1.jpg" alt="" srcset="">
+                <h3 class="textColor">PREPARE</h3>
+                <h3>Master a new skill</h3>
+                <p>Certificate courses and preparatory materials developed by industry leaders integrated with video
+                    series, quiz, assignments, live sessions and cloud lab</p>
+            </div>
+            <div class="info info2">
+                <img src="images/carousel2.jpg" alt="" srcset="">
+                <h4 class="textColor">PRACTICE</h4>
+                <h3>Outsmart competition</h3>
+                <p>Curated questions at varied difficulty levels and from previous year tests, guided with hints,
+                    explanation videos, test cases and solutions in a state-of-art environment.</p>
+            </div>
+            <div class="info infoCenter">
+                <img src="images/carousel3.jpg" alt="" srcset="">
+                <h4 class="textColor">PERFORM</h4>
+                <h3>Launch a career</h3>
+                <p>Try our daily contests, hackathons, company specific mock tests. With Aptitude, Coding, Written test
+                    and 6 other modules on a single platform, we've got you covered.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------OFFERS/ABOUT ----------->
+    <!-- <div class="section container offers grid-templates-three" id="about-us">
+        <div class="offer-MainBox">
+            <h2>What Master Minds offers you?</h2>
+            <div class="container grid grid-two-rows">
+                <div class="grid grid-three-columns">
+                    <div class="offerBox">
+                        <img src="images/smallimage1.png" alt="" srcset="">
+                        <h3>Self Paced Courses</h3>
+                        <p>Self Practice Learn & Upskill via Online Courses </p>
+                        <p class="offer-para">Take a Look <i class="fa fa-angle-right" aria-hidden="true"></i> </p>
+                    </div>
+                    <div class="offerBox">
+                        <img src="images/smallimage2.png" alt="" srcset="">
+                        <h3>LIVE Classes</h3>
+                        <p>Live Classes with Guaranteed Job Support</p>
+                        <p class="offer-para">Take a Look<i class="fa fa-angle-right"></i></p>
+                    </div>
+                    <div class="offerBox">
+                        <img src="images/smallimage4.png" alt="" srcset="">
+                        <h3>Gamified Platforms</h3>
+                        <p>Hands-on Practise the Learned Concepts</p>
+                        <p class="offer-para">Take a Look <i class="fa fa-angle-right" aria-hidden="true"></i> </p>
+                    </div>
+                    <div class="offerBox">
+                        <img src="images/smallimage3.png" alt="" srcset="">
+                        <h3>For Corporates</h3>
+                        <p> Meet your hiring needs at ease</p>
+                        <p class="offer-para">Take a Look <i class="fa fa-angle-right" aria-hidden="true"></i> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!------- COURSES SECTION ------->
+    <section class="section container course-section grid-templates-three" id="practice">
+        <h2 class="topic">Find a course you really <span class="highlight"><b> LOVE </b></span> </h2>
+        <p class="course-small topic-description">Explore over 100+ free courses and company specific tests.</p>
+
+        <div class="courses-data container">
+            <div class="info-div grid grid-three-columns">
+
+                <div class="info">
+                    <img src="images/front-end.png" alt="" srcset="">
+                    <h3 class="textColor">Front-End</h3>
+                    <p> This package includes JavaScript, CSS, HTML and much more Basics MCQ and Important
+                        Interview questions </p>
+                    <p class="course-amount">₹ 499 INR<br>
+                        <s class="discount-amount">₹ 999 INR</s>
+                        <small>(Save 50%)</small>
+                    </p>
+
+                    <button class="purchase-button">Buy Now</button>
+                    <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Try Now</button>
+                </div>
+
+                <div class="info">
+                    <img src="images/Back-end.png" alt="" srcset="">
+                    <h3 class="textColor">Back-End</h3>
+                    <p>This package include Java, Javascript, Python languages top company-specific questions
+                        aimed </p>
+                    <p class="course-amount">₹ 999 INR<br>
+                        <s class="discount-amount">₹ 1499 INR</s>
+                        <small>(Save 33%)</small>
+                    </p>
+
+                    <button class="purchase-button">Buy Now</button>
+                    <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Try Now</button>
+                </div>
+
+                <div class="info">
+                    <img src="images/verbal.png" alt="" srcset="">
+                    <h3 class="textColor">VERBAL</h3>
+                    <p>Verbal Pro Package
+                        A package nourished with top company-specific questions for verbal
+                        aptitude.</p>
+                    <p class="course-amount">₹ 299 INR<br>
+                        <s class="discount-amount">₹ 699 INR</s>
+                        <small>(Save 57%)</small>
+                    </p>
+
+                    <button class="purchase-button">Buy Now</button>
+                    <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Try Now</button>
+                </div>
+
+                <div class="info">
+                    <img src="images/free.png" alt="" srcset="">
+                    <h3 class="textColor">Practice</h3>
+                    <p>Basics Programs and MCQ's
+                        This is a entry level free package without any solution videos.MCQ's Basics Programs and verbal
+                        ability MCQ's.</p>
+                    <p><s class="discount-amount">₹ 199 INR</s></p><br>
+                    <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Practice Now</button>
+                </div>
+
+                <div class="info">
+                    <img src="images/front-end.png" alt="" srcset="">
+                    <h3 class="textColor">Standard</h3>
+                    <p>
+                        A package with top company-specific questions aimed and Explanation video and top
+                        company-specific questions </p>
+                    <p class="course-amount">₹ 999 INR<br>
+                        <s class="discount-amount">₹ 1499 INR</s>
+                        <small>(Save 33%)</small>
+                    </p>
+
+                    <button class="purchase-button">Buy Now</button>
+                    <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Try Now</button>
+                </div>
+
+                <div class="info">
+                    <img src="images/premium.png" alt="" srcset="">
+                    <h3 class="textColor">Premium</h3>
+                    <p>Practice with our company specific mock tests
+                        Get access to special courses and top company-specific questions </p>
+                    <p class="course-amount">₹ 1499 INR<br>
+                        <s class="discount-amount">₹ 1999 INR</s>
+                        <small>(Save 25%)</small>
+                    </p>
+
+                    <button class="purchase-button">Buy Now</button>
+                    <button class="try-now"><i class="fa-solid fa-gift gift-box"></i> Try Now</button>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section class="container section course-description" id="courses">
+        <h2 class="topic">A broad selection of <span class="highlight"> Courses </span></h2>
+        <ul class="course-buttons container">
+            <div class=" grid grid-one-columns">
+                <div>
+                    <button class="btn p-btn" data-btn-num="1">All Courses</button>
+                    <button class="btn p-btn" data-btn-num="2">Javascript</button>
+                    <button class="btn p-btn" data-btn-num="3">Java</button>
+                </div>
+                <div>
+                    <button class="btn p-btn" data-btn-num="4">Web Development</button>
+                    <button class="btn p-btn" data-btn-num="5">Data Science</button>
+                    <button class="btn p-btn" data-btn-num="6">Python</button>
+                </div>
+            </div>
+        </ul>
+
+        <!-- JAVASCRIPT -->
+        <div class="grid grid-three-columns container card-div ">
+            <!-- <div class="card p-btn--1 p-btn--2 p-btn--4">
+                <div class="image">
+                    <img src="images/js1.jpg" alt="" srcset="">
+                    <h3 class="description-head">Javascript for Beginners</h3>
+                    <h5>By Tech Guru</h5>
+                    <b> <small>4</small> &#11088 &#11088 &#11088 &#11088 <small>(607)</small></b>
+                    <b class="discount-amount">₹ 399 INR</b>
+                </div>
+                <div class="content">
+                    <b>3 total hours<span>&#10145</span> All Levels Subtitles<span>&#10145</span>
+                        Learn javascript online</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Extensive, informative and interesting video
+                        lecture<br>
+                        <i class="fa-solid fa-check img-content"></i>Complete Code demonstrated in lecture<br>
+                        <i class="fa-solid fa-check img-content"></i>Lab Exercises<br>
+                    </div>
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div> -->
+            <div class="card p-btn--1 p-btn--2 p-btn--4">
+                <div class="image">
+                    <img src="images/js2.jpg" alt="" srcset="">
+                    <h3 class="description-head">Javascript full course</h3>
+                    <h5>By Thapa Technical</h5>
+                    <b> <small>5</small> &#11088 &#11088 &#11088 &#11088 &#11088 <small>(2506)</small></b>
+                    <b class="discount-amount">₹ 50 INR</b>
+                </div>
+                <div class="content">
+                    <b>16 total hours<span>&#10145</span> All Levels Subtitles<span>&#10145</span>
+                        Learn javascript online</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Extensive, informative and interesting video
+                        lecture<br>
+                        <i class="fa-solid fa-check img-content"></i>Complete Code demonstrated in lecture<br>
+                        <i class="fa-solid fa-check img-content"></i>Lab Exercises
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--2 p-btn--4">
+                <div class="image">
+                    <img src="images/js3.jpg" alt="" srcset="">
+                    <h3 class="description-head">Advanced Javascript</h3>
+                    <h5>By WScube</h5>
+                    <b> <small>3</small> &#11088 &#11088 &#11088 <small>(1433)</small></b>
+                    <b class="discount-amount">₹ 899 INR</b>
+                </div>
+                <div class="content">
+                    <b>4 total hours<span>&#10145</span> All Levels Subtitles</b><br>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Learn to write JavaScript functions<br>
+                        <i class="fa-solid fa-check img-content"></i>Learn to write Javascript arrays<br>
+                        <i class="fa-solid fa-check img-content"></i>Learn to write Javascript loops<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+
+            <!--Java, WEB DEVELOPMENT -->
+            <div class="card p-btn--1 p-btn--3">
+                <div class="image">
+                    <img src="images/java1.jpg" alt="" srcset="">
+                    <h3 class="description-head">Java for Beginners</h3>
+                    <h5>By Tech Boss</h5>
+                    <b> <small>3</small> &#11088 &#11088 &#11088<small>(1545)</small></b>
+                    <b class="discount-amount">₹ 699 INR</b>
+                </div>
+                <div class="content">
+                    <b>5 total hours<span>&#10145</span> All Levels Subtitles</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>To learn the CORE skills to understand any
+                        programming language<br>
+                        <i class="fa-solid fa-check img-content"></i>Basics OOPS Concept & Code demonstrated in
+                        lecture<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--3">
+                <div class="image">
+                    <img src="images/java2.jpg" alt="" srcset="">
+                    <h3 class="description-head">CORE Java full course</h3>
+                    <h5>By Gajendran Ganesapandian</h5>
+                    <b> <small>5</small> &#11088 &#11088 &#11088 &#11088 &#11088 <small>(1526)</small></b>
+                    <b class="discount-amount">₹ 899 INR</b>
+                </div>
+                <div class="content">
+                    <b>13 total hours<span>&#10145</span> All Levels Subtitles<span>&#10145</span>
+                        Learn CORE java online</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Complete CORE Java<br>
+                        <i class="fa-solid fa-check img-content"></i>Complete Code demonstration<br>
+                        <i class="fa-solid fa-check img-content"></i>Complete OOPS Concept with real time examples<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--4">
+                <div class="image">
+                    <img src="images/webDevelopment1.jpg" alt="" srcset="">
+                    <h3 class="description-head">The Complete 2022 Fullstack Web Developer Course</h3>
+                    <h5>By code4Education</h5>
+                    <b> <small>3</small> &#11088 &#11088 &#11088 <small>(3425)</small></b>
+                    <b class="discount-amount">₹ 1499 INR</b>
+                </div>
+                <div class="content">
+                    <b>19 total hours<span>&#10145</span> All Levels Subtitles</b><br>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Learn HTML5, CSS3, Vanilla JS (ES6+), Python,all
+                        from scratch<br>
+                        <i class="fa-solid fa-check img-content"></i>Prepare for Industry Certification Exam<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+
+            <div class="card p-btn--1 p-btn--4">
+                <div class="image">
+                    <img src="images/Web-Development2.jpg" alt="" srcset="">
+                    <h3 class="description-head">Ultimate Web Designer & Web Developer Course</h3>
+                    <h5>By Thapa Technical</h5>
+                    <b> <small>4</small> &#11088 &#11088 &#11088 &#11088 <small>(1667)</small></b>
+                    <b class="discount-amount">₹ 999 INR</b>
+                </div>
+                <div class="content">
+                    <b>14 total hours<span>&#10145</span> All Levels Subtitles</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Build 23+ custom web design & development projects
+                        by hand<br>
+                        <i class="fa-solid fa-check img-content"></i> Learn more than 18 professional disciplines<br>
+
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--5">
+                <div class="image">
+                    <img src="images/machineLearning1.jpg" alt="" srcset="">
+                    <h3 class="description-head">Machine Learning, Data Science, Learning with Python</h3>
+                    <h5>By Krish Naik</h5>
+                    <b> <small>5</small> &#11088 &#11088 &#11088 &#11088 &#11088 <small>(1526)</small></b>
+                    <b class="discount-amount">₹ 899 INR</b>
+                </div>
+                <div class="content">
+                    <b>13 total hours<span>&#10145</span> All Levels Subtitles</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Build artificial neural networks with Tensorflow
+                        and Keras<br>
+                        <i class="fa-solid fa-check img-content"></i>Implement machine learning at massive scale with
+                        Apache Spark's MLLib<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--5">
+                <div class="image">
+                    <img src="images/machineLearning2.jpeg" alt="" srcset="">
+                    <h3 class="description-head">Data Science and Machine Learning Bootcamp with R</h3>
+                    <h5>By Simplilearn</h5>
+                    <b> <small>4</small> &#11088 &#11088 &#11088 &#11088<small>(1055)</small></b>
+                    <b class="discount-amount">₹ 699 INR</b>
+                </div>
+                <div class="content">
+                    <b>19 total hours<span>&#10145</span> All Levels Subtitles</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Program in R<br>
+                        <i class="fa-solid fa-check img-content"></i>Use R for Data Analysis<br>
+                        <i class="fa-solid fa-check img-content"></i>Create Data Visualizations<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--6">
+                <div class="image">
+                    <img src="images/python1.png" alt="" srcset="">
+                    <h3 class="description-head">Complete Python Programming</h3>
+                    <h5>By Mosh</h5>
+                    <b> <small>4</small> &#11088 &#11088 &#11088 &#11088 <small>(3122)</small></b>
+                    <b class="discount-amount">₹ 1099 INR</b>
+                </div>
+                <div class="content">
+                    <b>7 total hours<span>&#10145</span> All Levels Subtitles</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Create own Python Programs<br>
+                        <i class="fa-solid fa-check img-content"></i>Become an experienced Python Programmer<br>
+                        <i class="fa-solid fa-check img-content"></i>Parse the Web and Create their own Games<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+            <div class="card p-btn--1 p-btn--6 infoCenter">
+                <div class="image">
+                    <img src="images/python2.jpg" alt="" srcset="">
+                    <h3 class="description-head">Python for Data Structures, Algorithms, and Interviews!</h3>
+                    <h5>By Edureka</h5>
+                    <b> <small>3</small> &#11088 &#11088 &#11088<small>(1789)</small></b>
+                    <b class="discount-amount">₹ 999 INR</b>
+                </div>
+                <div class="content">
+                    <b>9 total hours<span>&#10145</span> All Levels Subtitles</b>
+                    <div class="">
+                        <i class="fa-solid fa-check img-content"></i>Create a great resume<br>
+                        <i class="fa-solid fa-check img-content"></i>Have a LinkedIn and Github profile for
+                        recruiters<br>
+                        <i class="fa-solid fa-check img-content"></i>Understand all major Data Structures and
+                        Algorithms<br>
+                    </div>
+
+                    <button class="try-now">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="section container aboutPerformance">
+        <h2>We are proud of...</h2>
+        <div class="grid grid-four-columns">
+            <div class="performance">
+                <p>16688</p>
+                <small class="performer">Learners</small>
+            </div>
+            <div class="performance">
+                <p>74</p>
+                <small class="performer">Mentors</small>
+            </div>
+            <div class="performance">
+                <p>127006</p>
+                <small class="performer">Lines of Code Submission</small>
+            </div>
+            <div class="performance">
+                <p>1423</p>
+                <small class="performer">Videos</small>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- <section class="section container">
+        <div class="container grid grid-three-columns">
+            <div class="perform1 container">
+                <div class="performs percentage1"></div>
+                <h5>76%</h5>
+            </div>
+            <div class="perform1 container">
+                <div class="performs percentage2"></div>
+                <h5>50%</h5>
+            </div>
+            <div class="perform1 container">
+                <div class="performs percentage3"></div>
+                <h5>100%</h5>
+            </div>
+        </div>
+        <div class="grid grid-three-columns performance">
+            <p>of Learners complete their courses within 3 months</p>
+            <p>of Learners could recollect the concepts faster</p>
+            <p>of Learners have better understanding over complex topics</p>
+        </div>
+    </section><hr> -->
+
+    <!--------- ABOUT US ------------->
+
+    <section class="section container aboutDiv" id="contact-us">
+        <h2 class="topic">We provide you with ultimate <span class="highlight">UPDATES</span></h2>
+        <h4 class="topic-description course-small">Get latest updates on your fingertips, Join Master Minds group</h4>
+        <div class="grid grid-two-columns">
+            <div class="about-us container">
+                <h3>GET STARTED</h3>
+                <h2>Ready to become next success story?</h2>
+                <p>
+                <ul>
+                    <li><i class="img-content">&#10004</i>Discover new courses & preparatory materials</li>
+                    <li><i class="img-content">&#10004</i>Practice with our company specific mock tests</li>
+                    <li><i class="img-content">&#10004</i>Improve your performance using our Advanced Analytics</li>
+                    <li><i class="img-content">&#10004</i>Ace the interviews and Launch a Career</li>
+                    <li><i class="img-content">&#10004</i>Get access to special courses and programms</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="contact-section ">
+                <div class="info">
+                    <img src="images/contactUs.avif" alt="" srcset="">
+                    <form action="https://formspree.io/f/xeqnpnke" method="POST">
+                        <div class="grid grid-two-column">
+                            <div class="username">
+                                <label for="username"></label>
+                                <input type="text" name="username" placeholder="Name" autocomplete="off" required>
+                            </div>
+                            <div class="username">
+                                <label for="email"></label>
+                                <input type="email" name="email" placeholder="user@gmail.com" autocomplete="off"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <label for="subject"></label>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+
+                        <div class="">
+                            <label for="textarea"></label>
+                            <textarea type="textarea" cols="30" row="10" placeholder="Textarea" required
+                                name="message"></textarea>
+                        </div>
+
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!---------- FOOTER ------------>
+
+    <footer class="footerData">
+        <div class="container grid grid-three-columns">
+            <div class="about">
+                <h3>About Website</h3>
+                <p>More Educational Related and Industry Related Questions Will be Added Day-to-Day
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        <a href="#courses">Courses</a>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        <a href="#practice">Practice</a>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        <a href="#about-us">About Us</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        <a href="#contact-us">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer-help">
+                <h3>Have any Queries Feel Free to Reach out Us</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>ERODE,Tamil nadu
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <a href="#contact-us" target="_blank">Contact Info</a>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <a href="tel:+919486337716">Click Here</a>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <a href="mailto:cecskiran23@gmail.com">cecskiran23@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="container">
+            <div class="f-social-links">
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-github" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <p style="color:darkgray">&copy;2022 All Rights Reserved by KIRAN - CSE KSRCE</p><br>
+
+            </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
